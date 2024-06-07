@@ -1,0 +1,15 @@
+<div class="head">
+  <h2>Search Results</h2>
+</div>
+<div class="places" *ngIf="locations.length > 0">
+  <div class="card" *ngFor="let location of locations">
+    <img src="{{location.image}}" class="card-img-top" alt="Your Image">
+    <div class="card-body">
+      <h1 class="card-title">{{location.location}}</h1>
+      <h2 class="card-title">{{location.place}}</h2>
+      <p class="card-text">{{location.description | slice:0:75}}...</p>
+      <span class="card-price">{{location.cost}}</span><br>
+      <button class="Explore" routerLink="/location-detail/{{location.id}}">Explore</button>
+    </div>
+  </div>
+</div>

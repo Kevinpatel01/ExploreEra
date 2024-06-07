@@ -1,0 +1,126 @@
+<div class="container mt-5">
+  <h2 class="mb-4 text-center">Payment Form</h2>
+  <form [formGroup]="paymentForm" (ngSubmit)="onSubmit()" novalidate>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="card-tab" [class.active]="activeTab === 'card'" data-toggle="tab"
+          href="javascript:void(0)" (click)="onTabChange('card')" role="tab" aria-controls="card"
+          aria-selected="true">Card</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="netbanking-tab" [class.active]="activeTab === 'netbanking'" data-toggle="tab"
+          href="javascript:void(0)" (click)="onTabChange('netbanking')" role="tab" aria-controls="netbanking"
+          aria-selected="false">Net Banking</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="upi-tab" [class.active]="activeTab === 'upi'" data-toggle="tab"
+          href="javascript:void(0)" (click)="onTabChange('upi')" role="tab" aria-controls="upi"
+          aria-selected="false">UPI</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade" [class.show]="activeTab === 'card'" [class.active]="activeTab === 'card'" id="card"
+        role="tabpanel" aria-labelledby="card-tab">
+        <div class="card mt-4">
+          <div class="card-body">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="cardName">Name on Card</label>
+                <input type="text" class="form-control" id="cardName" formControlName="cardName"
+                  placeholder="Enter name on card">
+                <div
+                  *ngIf="paymentForm.get('cardName')?.invalid && (paymentForm.get('cardName')?.dirty || paymentForm.get('cardName')?.touched)"
+                  class="text-danger">
+                  Please enter the name on the card.
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" class="form-control" id="cardNumber" formControlName="cardNumber"
+                  placeholder="Enter card number">
+                <div
+                  *ngIf="paymentForm.get('cardNumber')?.invalid && (paymentForm.get('cardNumber')?.dirty || paymentForm.get('cardNumber')?.touched)"
+                  class="text-danger">
+                  Please enter a valid 16-digit card number.
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="expiryDate">Expiration Date</label>
+                <input type="text" class="form-control" id="expiryDate" formControlName="expiryDate"
+                  placeholder="MM/YY">
+                <div
+                  *ngIf="paymentForm.get('expiryDate')?.invalid && (paymentForm.get('expiryDate')?.dirty || paymentForm.get('expiryDate')?.touched)"
+                  class="text-danger">
+                  Please enter a valid expiration date (MM/YY).
+                </div>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="cvv">CVV</label>
+                <input type="text" class="form-control" id="cvv" formControlName="cvv" placeholder="Enter CVV">
+                <div
+                  *ngIf="paymentForm.get('cvv')?.invalid && (paymentForm.get('cvv')?.dirty || paymentForm.get('cvv')?.touched)"
+                  class="text-danger">
+                  Please enter a valid 3-digit CVV.
+                </div>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="zipCode">Zip Code</label>
+                <input type="text" class="form-control" id="zipCode" formControlName="zipCode"
+                  placeholder="Enter zip code">
+                <div
+                  *ngIf="paymentForm.get('zipCode')?.invalid && (paymentForm.get('zipCode')?.dirty || paymentForm.get('zipCode')?.touched)"
+                  class="text-danger">
+                  Please enter your zip code.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" [class.show]="activeTab === 'netbanking'" [class.active]="activeTab === 'netbanking'"
+        id="netbanking" role="tabpanel" aria-labelledby="netbanking-tab">
+        <div class="card mt-4">
+          <div class="card-body">
+            <div class="form-group">
+              <label for="bankSelect">Select Bank</label>
+              <select class="form-control" id="bankSelect" formControlName="bankSelect">
+                <option value="" disabled selected>Select your bank</option>
+                <option value="bank1">Bank 1</option>
+                <option value="bank2">Bank 2</option>
+                <option value="bank3">Bank 3</option>
+                <option value="bank4">Bank 4</option>
+              </select>
+              <div
+                *ngIf="paymentForm.get('bankSelect')?.invalid && (paymentForm.get('bankSelect')?.dirty || paymentForm.get('bankSelect')?.touched)"
+                class="text-danger">
+                Please select your bank.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" [class.show]="activeTab === 'upi'" [class.active]="activeTab === 'upi'" id="upi"
+        role="tabpanel" aria-labelledby="upi-tab">
+        <div class="card mt-4">
+          <div class="card-body">
+            <div class="form-group">
+              <label for="upiId">UPI ID</label>
+              <input type="text" class="form-control" id="upiId" formControlName="upiId"
+                placeholder="Enter your UPI ID">
+              <div
+                *ngIf="paymentForm.get('upiId')?.invalid && (paymentForm.get('upiId')?.dirty || paymentForm.get('upiId')?.touched)"
+                class="text-danger">
+                Please enter your UPI ID.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <button type="submit" class="btn btn-primary">Pay</button>
+    </div>
+  </form>
+</div>

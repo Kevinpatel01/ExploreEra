@@ -1,0 +1,38 @@
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-header bg-primary text-white">
+      <h2 class="mb-0">Confirmation Page</h2>
+    </div>
+    <div class="card-body">
+      <div *ngIf="formData && locationdetail">
+        <div class="row">
+          <div class="col-md-4">
+            <img [src]="locationdetail.image" alt="Location Image" class="img-fluid rounded">
+          </div>
+          <div class="col-md-8">
+            <h4 class="text-primary">{{ locationdetail.place }}</h4>
+            <p class="text-muted"><strong>Price/Person:</strong> {{ locationdetail.cost }}</p>
+            <p class="text-muted"><strong>TotalPrice:</strong> ₹ {{ totalPrice }}</p>
+            <h5 class="mt-4">Your Details</h5>
+            <p><strong>First Name:</strong> {{ formData.firstname }}</p>
+            <p><strong>Last Name:</strong> {{ formData.lastname }}</p>
+            <p><strong>Email:</strong> {{ formData.email }}</p>
+            <p><strong>Number of Persons:</strong> {{ formData.persons }}</p>
+            <p><strong>Contact Number:</strong> {{ formData.phone }}</p>
+            <p><strong>Start Date:</strong> {{ formData.startdate | date }}</p>
+            <p><strong>End Date:</strong> {{ formData.enddate | date }}</p>
+          </div>
+        </div>
+        <div class="button">
+          <button class="btn btn-primary" (click)="pay()">Pay Now</button>
+        </div>
+      </div>
+      <div *ngIf="!formData || !locationdetail" class="alert alert-warning mt-3">
+        No data available. Please start your booking process from the beginning.
+      </div>
+    </div>
+  </div>
+  <div>
+    <button class="btn" routerLink="/plan"> &larr; Back</button>
+  </div>
+</div>

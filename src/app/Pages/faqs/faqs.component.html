@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+<div class="container mt-5">
+  <div class="faq-header">
+    <h1>Frequently Asked Questions</h1>
+  </div>
+
+  <div class="faq-section" *ngFor="let section of faqSections">
+    <h2>{{section.title}}</h2>
+    <div class="faq-item" *ngFor="let item of section.items">
+      <div class="faq-question" (click)="toggleAnswer(item)">
+        {{item.question}}
+      </div>
+      <div class="faq-answer" [class.show]="item.show">
+        <p>{{item.answer}}</p>
+      </div>
+    </div>
+  </div>
+</div>

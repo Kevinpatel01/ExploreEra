@@ -1,0 +1,16 @@
+<app-navbar></app-navbar>
+<div class="places">
+  <div class="card" *ngFor="let item of locations">
+    <img [src]="item.image" class="card-img-top" alt="Your Image">
+    <div class="card-body">
+      <h1 class="card-title">{{item.location}}</h1>
+      <h2 class="card-title">{{ item.place }}</h2>
+      <p class="card-text">{{ item.description | slice:0:75 }}...</p>
+      <span class="card-price">{{ item.cost }}</span><br>
+      <button class="Explore" [routerLink]="['/location-detail', item.id]">Explore</button>
+    </div>
+  </div>
+</div>
+<div>
+  <button class="btn" routerLink="/home"> &larr; Back</button>
+</div>

@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <h1>Exploring the World: A Traveler's Diary</h1>
+  <div class="post" *ngFor="let item of data">
+    <h2>{{item.title}}</h2>
+    <img src="{{item.image}}" alt="image">
+    <p>{{item.content}}</p>
+    <p>Know more:&nbsp; <a href="{{item.link}}">{{item.link}}</a></p>
+  </div>
+</div>

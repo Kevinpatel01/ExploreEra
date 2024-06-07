@@ -1,0 +1,311 @@
+{
+  "locations": [
+    {
+      "id": "0",
+      "image": "https://th.bing.com/th/id/OIP.1Su6iev_V9Rn-jxNP6AsQwHaE8?rs=1&pid=ImgDetMain",
+      "location": "Sekumpul Waterfall",
+      "place": "Bali",
+      "category": "Nature",
+      "description": "Sekumpul Waterfall is a stunning multi-tiered waterfall located in Bali, Indonesia. Surrounded by lush greenery, it offers a magical and serene experience for visitors. 🌿🏞️",
+      "cost": "₹ 64,000 per person",
+      "duration": "9 nights & 10 days"
+    },
+    {
+      "id": "1",
+      "image": "https://i.redd.it/uh4avmjjjq531.jpg",
+      "location": "The Matterhorn",
+      "place": "Switzerland",
+      "category": "Mountains",
+      "description": "The Matterhorn is an iconic mountain standing at 4,478 meters in the Swiss Alps. Its distinctive pyramid shape and snow-capped peak make it a breathtaking sight. Whether viewed from Zermatt or other vantage points, the Matterhorn leaves an indelible impression on all who see it. 🏔️❄️",
+      "cost": "₹ 725,000 per person",
+      "duration": "3 nights & 4 days"
+    },
+    {
+      "id": "2",
+      "image": "https://th.bing.com/th/id/OIP.5xinSruGA6p99OwISidLAQHaEK?rs=1&pid=ImgDetMain",
+      "location": "Eiffel Tower",
+      "place": "Paris",
+      "category": "Landmarks",
+      "description": "The Eiffel Tower is an iconic wrought-iron lattice tower located on the Champ de Mars in Paris. It was completed in 1889 as part of the 1889 World's Fair and has become a symbol of the city. Standing at 324 meters (1,063 feet), it offers stunning panoramic views of Paris from its observation decks. The tower's intricate design and historical significance make it a must-visit attraction for tourists and locals alike. 🗼🌆🇫🇷",
+      "cost": "₹ 150,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "3",
+      "image": "https://th.bing.com/th/id/OIP.jmcbklawE3nJTqATJO-MHwHaE7?rs=1&pid=ImgDetMain",
+      "location": "Everest base camp trek",
+      "place": "Nepal",
+      "category": "Adventure",
+      "description": "The Everest Base Camp trek is a popular and iconic trekking experience in the Himalayas of Nepal, attracting adventurers from around the world. This trek offers stunning views of the world's highest peaks, including Mount Everest, as well as unique cultural experiences in Sherpa villages. The journey typically starts with a flight to Lukla, followed by a trek through rugged terrain, beautiful forests, and high-altitude landscapes, leading to the base camp where climbers begin their ascent of Everest. Along the way, trekkers can explore Buddhist monasteries, encounter yaks, and immerse themselves in the breathtaking beauty of the Khumbu region, making it a memorable and rewarding adventure for those seeking a challenge and a connection with nature.",
+      "cost": "₹ 125,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "4",
+      "image": "https://res-1.cloudinary.com/enchanting/images/w_1600,h_700,c_crop/et-web/2015/05/asia-thailand-kanchanaburi-wat-tham-sua/destination-kanchanaburi-thailand.jpg",
+      "location": "Kanchanaburi",
+      "place": "Thailand",
+      "category": "Historical",
+      "description": "Kanchanaburi, located in western Thailand, is renowned for its historical significance. It’s home to the famous Bridge over the River Kwai, which was built during World War II by prisoners of war. The area also boasts picturesque landscapes, including lush forests and serene river views. 🌿🌉",
+      "cost": "₹ 50,000 per person",
+      "duration": "5 nights & 6 days"
+    },
+    {
+      "id": "5",
+      "image": "https://th.bing.com/th/id/R.8f4f3d5d890ad8dbd163535ba92b89e2?rik=qZh%2fOtQ6KLIlAw&riu=http%3a%2f%2fturnupindia.com%2fwp-content%2fuploads%2f2020%2f03%2fchaante.jpg&ehk=1C2%2bfgkYioFe1Wqr9M6pu1ZFy3%2f7i1F90jGGkwEa9vw%3d&risl=&pid=ImgRaw&r=0",
+      "location": "Calangute Beach",
+      "place": "Goa",
+      "category": "Beach",
+      "description": "rant beach shacks, and a wide range of water sports. Whether you’re into parasailing, water surfing, banana rides, or jet-skiing, Calangute Beach has something for every beach lover. 🏖️🌊",
+      "cost": "₹ 25,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "6",
+      "image": "https://th.bing.com/th/id/OIP.umCaY2K-7ZYnyT1n8u8KUwHaE8?rs=1&pid=ImgDetMain",
+      "location": "Munnar",
+      "place": "Kerala",
+      "category": "Adventure",
+      "description": "Munnar, nestled in the Western Ghats of Kerala, is renowned for its picturesque tea plantations, mist-covered hills, and cool climate. It’s a tranquil haven for nature enthusiasts and offers breathtaking views at every turn. 🌿🌄",
+      "cost": "₹ 25,500 per person",
+      "duration": "6 nights & 7 days"
+    },
+    {
+      "id": "7",
+      "image": "https://style-review.com/images/easyblog_articles/2256/b2ap3_large_Universal-Studio.jpg",
+      "location": "Universal Studios Singapore",
+      "place": "Singapore",
+      "category": "Entertainment",
+      "cost": "₹ 215,000 per person",
+      "description": " Universal Studios Singapore is an exciting theme park located on Sentosa Island. It features thrilling rides, movie-themed attractions, and immersive experiences for visitors of all ages. 🎢🎥",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "8",
+      "image": "https://www.thoughtco.com/thmb/-e3kdjnSIv5XeHuXgY-x_dFOKXs=/2097x1430/filters:no_upscale():max_bytes(150000):strip_icc()/the-roman-coliseum-in-the-early-morning-655490208-5a750519875db90037324138.jpg",
+      "location": "Rome",
+      "place": "Italy",
+      "category": "Historical",
+      "description": "Rome, the capital of Italy, is a city steeped in history, art, and culture. Explore iconic landmarks like the Colosseum, marvel at the Vatican Museums, and toss a coin into the Trevi Fountain for good luck. 🇮🇹✨",
+      "cost": "₹ 215,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "9",
+      "image": "https://imgcld.yatra.com/ytimages/image/upload/t_holidays_responsivedetailslargeimg/v1481109919/Kedarnath_Culture.jpg",
+      "location": "Kedarnath",
+      "place": "Uttrakhand",
+      "category": "Pilgrimage",
+      "description": "Kedarnath, located in the Indian state of Uttarakhand, is a significant pilgrimage site for Hindus. It is nestled in the Himalayan ranges and is known for its serene beauty and spiritual aura. The main attraction in Kedarnath is the Kedarnath Temple, dedicated to Lord Shiva, which is one of the twelve Jyotirlingas in India. The journey to Kedarnath involves a trek of approximately 16 kilometers from Gaurikund, passing through picturesque landscapes and breathtaking views of the mountains. Visitors can also explore the surrounding area, which offers opportunities for meditation, trekking, and connecting with nature. It is advisable to check the weather conditions before planning a trip to Kedarnath, as the region experiences snowfall during the winter months.",
+      "cost": "₹ 19,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "10",
+      "image": "https://th.bing.com/th/id/R.24749f6c5d54395c9ecf3ed89ee88903?rik=aIEwfY4%2b5zH8pg&riu=http%3a%2f%2fluxurylonghaul.com%2fassets%2fUploads%2fMUTPOL1Dai15.jpg&ehk=AbAdoNAHBm2IHvtKQ6t%2bAMectLT58tzhc1EQ753gfEA%3d&risl=&pid=ImgRaw&r=0",
+      "location": "Trou Aux Biches",
+      "place": "Mauritius",
+      "category": "Beach",
+      "description": "Trou aux Biches is a charming coastal town in northwest Mauritius, renowned for its pristine beaches, azure waters, and excellent tourist amenities. Whether you seek relaxation on soft white sands, snorkeling in crystal-clear waters, or exploring the underwater world, Trou aux Biches offers a delightful experience. 🏖️ For a romantic getaway, consider staying at the Trou aux Biches Beachcomber Golf Resort & Spa, nestled along the beach with turquoise lagoon views. 🌴 Explore attractions like the Jummah Masjid and the Sir Seewoosagur Ramgoolam Botanical Garden to enhance your visit. 🌺",
+      "cost": "₹ 15,000 per person",
+      "duration": "6 nights & 7 days"
+    },
+    {
+      "id": "11",
+      "image": "https://th.bing.com/th/id/OIP.nIAVRm5piGE5fitTTPnkVwHaE8?rs=1&pid=ImgDetMain",
+      "location": "Notre-Dame Cathedral",
+      "place": "Paris",
+      "category": "Landmarks",
+      "description": "The Notre-Dame Cathedral is a Gothic masterpiece located on the Île de la Cité in the heart of Paris. Its construction began in the 12th century, and it has been a symbol of French history, art, and architecture. The cathedral features stunning stained glass windows, intricate sculptures, and a rich history that draws millions of visitors each year. Unfortunately, in April 2019, a devastating fire severely damaged the cathedral, but restoration efforts are underway to preserve its beauty and cultural significance. 🕍🔥🇫🇷",
+      "cost": "₹ 150,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "12",
+      "image": "https://th.bing.com/th/id/OIP.-B_02G893W5vlp2OxnqaFQHaFN?rs=1&pid=ImgDetMain",
+      "location": "Chamarel and the Seven Coloured Earths",
+      "place": "Mauritius  ",
+      "category": "Nature",
+      "description": "Chamarel and the Seven Coloured Earths in Mauritius is a natural wonder where sand dunes display a mesmerizing array of colors, ranging from reds and browns to purples and blues. The unique geological phenomenon is caused by the varying mineral content in the soil. Visitors can witness this captivating sight and explore the surrounding lush landscape. 🌈🏞️🇲🇺",
+      "cost": "₹ 15,000 per person",
+      "duration": "6 nights & 7 days"
+    },
+    {
+      "id": "13",
+      "image": "https://th.bing.com/th/id/OIP.Ynl2-LD3CIPVzmV88gcL8gHaE8?rs=1&pid=ImgDetMain",
+      "location": "Arc de Triomphe",
+      "place": "Paris",
+      "category": "Landmarks",
+      "description": "The Arc de Triomphe is an iconic monument in Paris, France. Commissioned by Napoleon in 1806, it commemorates French soldiers who fought in the Napoleonic Wars. The arch stands 50 meters tall and features four semicircular arches, making it a central cohesive element of the historic axis in Paris. 🇫🇷🏛️🌟",
+      "cost": "₹ 150,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "14",
+      "image": "https://thumbs.dreamstime.com/b/mauritius-grand-bassin-lake-hindu-temple-hindu-temple-ganga-talao-crater-lake-grand-bassin-considered-most-sacred-136455096.jpg",
+      "location": "Grand Bassin",
+      "place": "Mauritius",
+      "category": "Religious",
+      "description": "Grand Bassin, also known as Ganga Talao, is a sacred crater lake in Mauritius. It holds great religious significance for the Hindu community. The serene lake is surrounded by lush green hills and features a temple dedicated to Lord Shiva. Pilgrims visit this tranquil spot to offer prayers and immerse themselves in its spiritual ambiance. 🕉️🏞️🇲🇺",
+      "cost": "₹ 28,000 per person",
+      "duration": "5 nights & 6 days"
+    },
+    {
+      "id": "15",
+      "image": "https://images.myguide-cdn.com/content/2/large/ssr-botanical-garden-pamplemousses-garden-482631.jpg",
+      "location": "The Pamplemousses Botanic Garden",
+      "place": "Mauritius",
+      "category": "Nature",
+      "description": "The Pamplemousses Botanic Garden in Mauritius, also known as Sir Seewoosagur Ramgoolam Botanical Garden, is the oldest and largest garden in the country. It boasts an impressive collection of diverse flora, including giant water lilies, exotic palm trees, and vibrant tropical plants. Visitors can explore its picturesque pathways, enjoy the serene pond, and marvel at the lush greenery. 🌿🌺🇲🇺",
+      "cost": "₹ 15,000 per person",
+      "duration": "2 nights & 3 days"
+    },
+    {
+      "id": "16",
+      "image": "https://s3.india.com/wp-content/uploads/2021/07/nainital-1200.jpg",
+      "location": "Nainital",
+      "place": "Uttrakhand",
+      "category": "Nature",
+      "description": "Nainital, often referred to as the “Jewel of Kumaon,” is a picturesque hill station in Uttarakhand, India. It boasts a serene Nainital Lake, surrounded by lush green hills. Visitors can enjoy boat rides on the lake and take in breathtaking views of the surrounding mountains. 🏞️🚣‍♂️",
+      "cost": "₹ 19,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "17",
+      "image": "https://i.redd.it/t2tdwhb85mrz.jpg",
+      "location": "The Vally of Flowers",
+      "place": "Uttrakhand",
+      "category": "Nature",
+      "description": "The Valley of Flowers is a mesmerizing UNESCO World Heritage Site located in the Himalayas of Uttarakhand, India. This enchanting valley blooms with a vibrant carpet of alpine flowers during the monsoon season, creating a breathtaking spectacle for nature enthusiasts and trekkers alike. 🌸🏞️",
+      "cost": "₹ 19,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "18",
+      "image": "https://www.yourtravellingstory.com/wp-content/uploads/2020/11/Places-to-Visit-Mussoorie-8-Best-Tourist-Destinations-1200x628.jpg?is-pending-load=1",
+      "location": "Mussoorie",
+      "place": "Uttrakhand",
+      "category": "Nature",
+      "description": "Mussoorie, often called the “Queen of Hills,” is a charming hill station in Uttarakhand, India. Nestled amidst lush green hills, it offers breathtaking views, waterfalls, and a pleasant climate. Don’t miss exploring the Mall Road and soaking in the panoramic vistas. 🏞️🌿",
+      "cost": "₹ 19,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "19",
+      "image": "https://th.bing.com/th/id/R.c67dc09a49c6b81633af95442126ffda?rik=R8nK7JjKNrNz7Q&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f2%2f29%2fRuins_of_Pompeii_with_the_Vesuvius.jpg&ehk=Lxf2Mxk9x5yGSR%2flUzLg3pXn6R%2b5UUzqbaIaWNkZHBI%3d&risl=1&pid=ImgRaw&r=0",
+      "location": "Pompeii",
+      "place": "Italy",
+      "category": "Historical",
+      "description": "Pompeii, an ancient Roman city, lies near Naples, Italy. It was tragically buried by the eruption of Mount Vesuvius in 79 AD. The remarkably preserved ruins offer a glimpse into daily life, with well-preserved houses, streets, and even plaster casts of victims. 🏛️🌋",
+      "cost": "₹ 215,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "20",
+      "image": "https://th.bing.com/th/id/OIP.4HIwKLIjwhGm1qu0RkT6CwHaE9?rs=1&pid=ImgDetMain",
+      "location": "Chinatown",
+      "place": "Singapore",
+      "category": "Caltural",
+      "cost": "₹ 215,000 per person",
+      "description": "Chinatown in Singapore is a vibrant and historic neighborhood that offers a rich blend of culture, heritage, and modern city life. It’s one of the city’s most iconic and bustling districts, known for its colorful streets, traditional architecture, delectable food, and a range of cultural attractions. Featuring distinctly Chinese cultural elements, Chinatown has had a historically concentrated ethnic Chinese population. While it is considerably less of an enclave than it once was, it remains a must-visit destination for travelers seeking an authentic experience in Singapore. 🏮🌆",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "21",
+      "image": "https://live.staticflickr.com/215/466191698_8e5c78b787_b.jpg",
+      "location": "Sacred Monkey Forest Sanctuary",
+      "place": "Bali",
+      "category": "Nature",
+      "description": "The Sacred Monkey Forest Sanctuary in Bali, Indonesia, is a lush forest area inhabited by playful monkeys. Visitors can explore ancient temples within the sanctuary while enjoying the natural beauty and observing the mischievous macaques. 🌿🐒",
+      "cost": "₹ 64,000 per person",
+      "duration": "9 nights & 10 days"
+    },
+    {
+      "id": "22",
+      "image": "https://th.bing.com/th/id/OIP.BTnoiFma-K7RtxEOC8KUCgHaE8?rs=1&pid=ImgDetMain",
+      "location": "Jungfraujoch: The Top of Europe",
+      "place": "Switzerland",
+      "category": "Nature",
+      "description": "Jungfraujoch, often referred to as the “Top of Europe,” is a high-altitude wonder in Switzerland. Visitors can take a scenic train ride to this breathtaking location, surrounded by the Eiger, Mönch, and Jungfrau peaks. The views from here are truly awe-inspiring! 🚂❄️",
+      "cost": "₹ 725,000 per person",
+      "duration": "3 nights & 4 days"
+    },
+    {
+      "id": "23",
+      "image": "https://www.holidaytravelzone.com/bootstrap/images/package/uploads/original/Kathmandu_Tour_Package.jpg",
+      "location": "Kathmandu",
+      "place": "Nepal",
+      "category": "Caltural",
+      "description": "Kathmandu, the capital of Nepal, lies in a hilly region near the confluence of the Baghmati and Vishnumati rivers. At an elevation of 4,344 feet (1,324 meters) above sea level, it was founded in 723 AD by Raja Gunakamadeva. Its early name was Manju-Patan, and the present name refers to a wooden temple. Today, Kathmandu is a vibrant city with a rich history, art, culture, and a multi-ethnic population within a Hindu and Buddhist majority. 🏔️🌸",
+      "cost": "₹ 125,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "24",
+      "image": "https://th.bing.com/th/id/OIP.gUvk114NguaCBdE8kNwDYgHaE8?rs=1&pid=ImgDetMain",
+      "location": "Ayuthaya",
+      "place": "Thailand",
+      "category": "Historical",
+      "description": "Ayuthaya, also known as Ayutthaya, is a UNESCO World Heritage Site in Thailand. It was the second capital of the Siamese Kingdom and is famous for its ancient ruins, including temples and palaces. The city was a major trading hub and cultural center until it was destroyed in the 18th century. Today, visitors can explore the historical remnants and appreciate the rich history of this once-thriving city. 🏛️🌟",
+      "cost": "₹ 50,000 per person",
+      "duration": "5 nights & 6 days"
+    },
+    {
+      "id": "25",
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/goa/mmt/activities/m_Fort%20Aguada_1_l_495_745.jpg",
+      "location": "Fort Aguada",
+      "place": "Goa",
+      "category": "Historical",
+      "description": "Fort Aguada, a 17th-century Portuguese fort in Goa, is perched atop a hill overlooking the Arabian Sea. Its distinctive four-storey lighthouse offers breathtaking panoramic views of the coastline. The fort played a crucial role in defending against naval attacks during its time. 🏰🌅",
+      "cost": "₹ 25,000 per person",
+      "duration": "4 nights & 5 days"
+    },
+    {
+      "id": "26",
+      "image": "https://th.bing.com/th/id/OIP.JHBDqX1eDe9MhgAFqp6MfgHaDs?rs=1&pid=ImgDetMain",
+      "location": "Kollam",
+      "place": "Kerala",
+      "category": "Caltural",
+      "description": "Kollam, also known as Quilon, is the fourth largest city in Kerala. It’s famous for cashew processing, coir manufacturing, and its historical significance. Located on the Malabar Coast, Kollam serves as the southern gateway to the Backwaters of Kerala, making it a prominent tourist destination with continuous settlements dating back centuries.🌴🏖️",
+      "cost": "₹ 25,500 per person",
+      "duration": "6 nights & 7 days"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Exploring the Serene Beaches of Bali",
+      "image": "https://tropicalgo.com/wp-content/uploads/2020/06/04_DiamondBeach1.jpg",
+      "content": "Bali, the enchanting Indonesian island, is renowned for its stunning beaches, lush greenery, and vibrant culture. Whether you seek hidden coves, dramatic cliffs, or tranquil shores, Bali has something to offer every beach lover.",
+      "link": "https://www.saltinourhair.com/bali/best-beaches-bali/"
+    },
+    {
+      "id": "2",
+      "title": "Hiking the Majestic Mountains of Switzerland",
+      "image": "https://th.bing.com/th/id/OIP.nV8rB0w4YBXcu88y-4GzgAHaEW?rs=1&pid=ImgDetMain",
+      "content": "Switzerland, a land of soaring peaks, pristine alpine lakes, and breathtaking vistas, beckons adventure seekers to explore its majestic mountains. Lace up your hiking boots, breathe in the crisp mountain air, and let's ascend to the summits.",
+      "link": "https://www.myglobalviewpoint.com/best-mountains-in-switzerland/"
+    },
+    {
+      "id": "3",
+      "title": "Safari Adventure in the African Savanna",
+      "image": "https://th.bing.com/th/id/OIP.FZaPNdT-3Codc0ss8_4T4AHaEK?rs=1&pid=ImgDetMain",
+      "content": "Embarking on a Safari Adventure in the African Savanna is like stepping into a mesmerizing storybook where nature’s grandeur unfolds before your eyes. Let's delve into the heart of this captivating ecosystem and explore its wonders.",
+      "link": "https://thegreenvoyage.com/african-safari-adventures-2024-a-guide-to-the-10-best-safari-experiences-in-africa/"
+    },
+    {
+      "id": "4",
+      "title": "Cultural Delights of Kyoto, Japan",
+      "image": "https://www.geekyexplorer.com/wp-content/uploads/2019/04/Kyoto-things-to-do-japan.jpg",
+      "content": "Kyoto, a city steeped in history and tradition, offers a rich tapestry of cultural experiences.Kyoto weaves together ancient temples, tea houses, and modern cityscapes, inviting you to explore its cultural treasures. So, don your kimono, sip tea, and let the spirit of Kyoto envelop you in its timeless embrace! ",
+      "link": "https://touristeyes.com/a-cultural-journey-through-kyoto-japan/"
+    },
+    {
+      "id": "5",
+      "title": "Scuba Diving in the Great Barrier Reef",
+      "image": "https://th.bing.com/th/id/OIP.J9nmlL6_-vOI6_b8NRcVPwEzDL?rs=1&pid=ImgDetMain",
+      "content": "Scuba diving in the Great Barrier Reef is an exhilarating adventure that immerses you in the vibrant underwater world of one of Earth's most remarkable coral reef systems.Remember, scuba diving in the Great Barrier Reef unveils a kaleidoscope of marine life—corals, colorful fish, and perhaps even encounters with majestic rays and sharks. Dive in, and let the reef's magic envelop you!",
+      "link": "https://www.torntackies.com/great-barrier-reef-scuba-diving/"
+    }
+  ]
+}

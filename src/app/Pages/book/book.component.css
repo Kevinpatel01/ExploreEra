@@ -1,0 +1,38 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.img-fluid {
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.btn {
+  margin-top: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.head {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding: 10px;
+  margin: 5px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #333;
+}
+
+.card-price {
+  color: green;
+  font-weight: bold;
+}
+
+.Explore {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.Explore:hover {
+  background-color: #0056b3;
+}

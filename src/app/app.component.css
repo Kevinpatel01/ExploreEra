@@ -1,0 +1,8 @@
+@import '~ngx-toastr/toastr.css';
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 80px;
+}

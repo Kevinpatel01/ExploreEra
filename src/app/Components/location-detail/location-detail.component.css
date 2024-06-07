@@ -1,0 +1,50 @@
+.container{
+  width: 100%;
+  margin: 10px;
+}
+
+.location-detail{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  img{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+  }
+
+  .btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: #0056b3;
+  }
+}
+
+.right{
+  margin: 10px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .desc, .cat{
+    color:cornflowerblue;
+  }
+}
+

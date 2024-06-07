@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="location-detail">
+    <div class="left">
+      <img src="{{locationdetail?.image}}" alt="img">
+      <div>
+        <button class="btn" routerLink="/home"> &larr; Back</button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="text">
+        <span>Place: <h1 class="desc">{{locationdetail?.location}}</h1></span>
+        <span>Location: <h2 class="desc">{{locationdetail?.place}}</h2></span>
+        <span>Category: <h3 class="cat">{{locationdetail?.category}}</h3></span>
+        <span>Overview: <br><br>
+          <h4 class="desc">{{locationdetail?.description}}</h4>
+        </span>
+        <span>Cost: <h3 class="desc">{{locationdetail?.cost}}</h3></span>
+        <span>Duration: <h4 class="desc">{{locationdetail?.duration}}</h4></span>
+        <div>
+          <button mat-flat-button color="primary" (click)="planTravel()">Plan Travel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
