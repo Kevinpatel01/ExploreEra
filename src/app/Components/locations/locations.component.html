@@ -1,5 +1,5 @@
 <div class="places">
-  <div class="card" *ngFor="let item of pagedData">
+  <div class="card" *ngFor="let item of pagedData" routerLink="/location-detail/{{item.id}}">
     <img src="{{item.image}}" class="card-img-top" alt="Your Image">
     <div class="card-body">
       <h1 class="card-title">{{item.location}}</h1>
@@ -12,6 +12,11 @@
 </div>
 
 <div class="pagination">
-  <button mat-raised-button color="accent" (click)="previousPage()" [disabled]="currentPage === 1">&larr; Previous</button>
-  <button mat-raised-button color="accent" (click)="nextPage()" [disabled]="currentPage === totalPages">Next &rarr;</button>
+  <!-- <button mat-raised-button color="accent" (click)="previousPage()" [disabled]="currentPage === 1">&larr;
+    Previous</button>
+  <button mat-raised-button color="accent" (click)="nextPage()" [disabled]="currentPage === totalPages">Next
+    &rarr;</button> -->
+    <app-paginator [currentPage]="currentPage"
+    [totalPage]="totalPages"
+    (pageChange)="onPageChange($event)"></app-paginator>
 </div>

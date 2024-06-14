@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { location } from '../../../locationmodule';
 import { ServicesService } from '../../services.service';
-import { totalmem } from 'node:os';
 
 @Component({
   selector: 'app-locations',
@@ -27,6 +26,11 @@ export class LocationsComponent implements OnInit {
     })
   }
 
+  onPageChange(pageNumber : number) {
+    this.currentPage = pageNumber;
+    this.paginateData();
+  }
+
   paginateData() {
     const startIndex = (this.currentPage - 1) * this.itemsperPage;
     const endIndex = Math.min(startIndex + this.itemsperPage, this.data.length);
@@ -37,18 +41,18 @@ export class LocationsComponent implements OnInit {
     return Math.ceil(this.data.length / this.itemsperPage);
   }
 
-  nextPage() {
-    if (this.currentPage < this.totalPages) {
-      this.currentPage++;
-      this.paginateData();
-    }
-  }
+  // nextPage() {
+  //   if (this.currentPage < this.totalPages) {
+  //     this.currentPage++;
+  //     this.paginateData();
+  //   }
+  // }
 
-  previousPage() {
-    if (this.currentPage > 1) {
-      this.currentPage--;
-      this.paginateData();
-    }
-  }
+  // previousPage() {
+  //   if (this.currentPage > 1) {
+  //     this.currentPage--;
+  //     this.paginateData();
+  //   }
+  // }
 
 }

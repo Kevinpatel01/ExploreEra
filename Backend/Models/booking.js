@@ -13,7 +13,11 @@ const bookingSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  persons: {
+  adults: {
+    type: Number,
+    required: true,
+  },
+  children: {
     type: Number,
     required: true,
   },
@@ -49,10 +53,10 @@ const bookingSchema = new mongoose.Schema({
   },
   userId: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
-    required: true
-  }
+    ref: "User",
+    required: true,
+  },
 });
 
-const Booking = mongoose.model('Booking', bookingSchema);
+const Booking = mongoose.model("Booking", bookingSchema);
 module.exports = Booking;

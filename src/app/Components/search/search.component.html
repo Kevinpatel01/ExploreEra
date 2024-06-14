@@ -1,6 +1,9 @@
 <div class="head">
   <h2>Search Results</h2>
 </div>
+<div *ngIf="locations.length <= 0">
+  <p>No results found!!</p>
+</div>
 <div class="places" *ngIf="locations.length > 0">
   <div class="card" *ngFor="let location of locations">
     <img src="{{location.image}}" class="card-img-top" alt="Your Image">

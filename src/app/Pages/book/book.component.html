@@ -11,13 +11,13 @@
           </div>
           <div class="col-md-8">
             <h4 class="text-primary">{{ locationdetail.place }}</h4>
-            <p class="text-muted"><strong>Price/Person:</strong> {{ locationdetail.cost }}</p>
+            <!-- <p class="text-muted"><strong>Price/Person:</strong> {{ locationdetail.cost }}</p> -->
             <p class="text-muted"><strong>TotalPrice:</strong> ₹ {{ totalPrice }}</p>
             <h5 class="mt-4">Your Details</h5>
             <p><strong>First Name:</strong> {{ formData.firstname }}</p>
             <p><strong>Last Name:</strong> {{ formData.lastname }}</p>
             <p><strong>Email:</strong> {{ formData.email }}</p>
-            <p><strong>Number of Persons:</strong> {{ formData.persons }}</p>
+            <p><strong>Total Number of Persons:</strong> {{ formData.adults + formData.children }}</p>
             <p><strong>Contact Number:</strong> {{ formData.phone }}</p>
             <p><strong>Start Date:</strong> {{ formData.startdate | date }}</p>
             <p><strong>End Date:</strong> {{ formData.enddate | date }}</p>

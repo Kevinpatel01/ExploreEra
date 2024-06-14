@@ -1,11 +1,14 @@
 <div class="container mt-5">
   <h2>My Bookings</h2>
+  <div *ngIf="bookings.length === 0">
+    <p>No Bookings available.</p>
+  </div>
   <div *ngFor="let booking of bookings" class="card mb-3">
     <div class="card-body">
       <h5 class="card-title">{{ booking.firstname }} {{ booking.lastname }}</h5>
       <p class="card-text">
         <strong>Email:</strong> {{ booking.email }}<br>
-        <strong>Number of Persons:</strong> {{ booking.persons }}<br>
+        <strong>Total Number of Persons:</strong> {{ booking.adults + booking.children }}<br>
         <strong>Phone:</strong> {{ booking.phone }}<br>
         <strong>Start Date:</strong> {{ booking.startdate | date }}<br>
         <strong>End Date:</strong> {{ booking.enddate | date }}<br>

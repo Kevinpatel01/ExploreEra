@@ -24,6 +24,7 @@ import {MatCardModule} from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { PlanComponent } from './Pages/plan/plan.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import {MatPaginatorModule} from '@angular/material/paginator';
 import { provideNativeDateAdapter } from '@angular/material/core';
 import { BookComponent } from './Pages/book/book.component';
 import { CdkTableModule } from '@angular/cdk/table';
@@ -39,6 +40,7 @@ import { ConfirmComponent } from './Pages/confirm/confirm.component';
 import { BookingsComponent } from './Components/bookings/bookings.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { FAQsComponent } from './Pages/faqs/faqs.component';
+import { PaginatorComponent } from './Components/paginator/paginator.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -61,7 +63,8 @@ import { FAQsComponent } from './Pages/faqs/faqs.component';
     ConfirmComponent,
     BookingsComponent,
     FooterComponent,
-    FAQsComponent
+    FAQsComponent,
+    PaginatorComponent
   ],
   imports: [
     FormsModule,
@@ -74,6 +77,7 @@ import { FAQsComponent } from './Pages/faqs/faqs.component';
     MatTabsModule,
     MatInputModule,
     MatSelectModule,
+    MatPaginatorModule,
     MatCardModule,
     MatIconModule,
     MatDatepickerModule,

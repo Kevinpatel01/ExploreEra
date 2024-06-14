@@ -1,26 +1,26 @@
-.container{
+.container {
   width: 100%;
   margin: 10px;
 }
 
-.location-detail{
+.location-detail {
   display: flex;
   flex-direction: row;
   gap: 100px;
 }
 
-.left{
+.left {
   display: flex;
   flex-direction: column;
   gap: 20px;
 
-  img{
+  img {
     height: 450px;
     width: 450px;
     object-fit: cover;
   }
 
-  .btn{
+  .btn {
     background-color: #007bff;
     color: white;
     border: none;
@@ -29,22 +29,22 @@
     cursor: pointer;
   }
 
-  .btn:hover{
+  .btn:hover {
     background-color: #0056b3;
   }
 }
 
-.right{
+.right {
   margin: 10px;
 }
 
-.text{
+.text {
   display: flex;
   flex-direction: column;
   gap: 20px;
 
-  .desc, .cat{
-    color:cornflowerblue;
+  .desc,
+  .cat {
+    color: cornflowerblue;
   }
 }
-

@@ -15,35 +15,50 @@
         Last name is required.
       </div>
     </div>
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" class="form-control" id="email" formControlName="email" placeholder="Enter email">
-      <div *ngIf="form.get('email')?.hasError('required') && form.get('email')?.touched" class="text-danger">
-        Email is required.
+    <div class="form-group group-inline">
+      <div>
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" formControlName="email" placeholder="Enter email">
+        <div *ngIf="form.get('email')?.hasError('required') && form.get('email')?.touched" class="text-danger">
+          Email is required.
+        </div>
+        <div *ngIf="form.get('email')?.hasError('email') && form.get('email')?.touched" class="text-danger">
+          Enter a valid email address.
+        </div>
+        <div *ngIf="form.get('email')?.hasError('emailMismatch') && form.get('email')?.touched" class="text-danger">
+          Email must match the logged-in email.
+        </div>
       </div>
-      <div *ngIf="form.get('email')?.hasError('email') && form.get('email')?.touched" class="text-danger">
-        Enter a valid email address.
-      </div>
-      <div *ngIf="form.get('email')?.hasError('emailMismatch') && form.get('email')?.touched" class="text-danger">
-        Email must match the logged-in email.
+      <div>
+        <label for="phone">Contact Number</label>
+        <input type="tel" class="form-control" id="phone" formControlName="phone" placeholder="Enter contact number">
+        <div *ngIf="form.get('phone')?.hasError('required') && form.get('phone')?.touched" class="text-danger">
+          Contact number is required.
+        </div>
+        <div *ngIf="form.get('phone')?.hasError('pattern') && form.get('phone')?.touched" class="text-danger">
+          Enter a valid contact number.
+        </div>
       </div>
     </div>
-    <div class="form-group">
-      <label for="persons">Number of Persons</label>
-      <input type="number" class="form-control" id="persons" formControlName="persons"
-        placeholder="Enter number of persons">
-      <div *ngIf="form.get('persons')?.hasError('required') && form.get('persons')?.touched" class="text-danger">
-        Number of persons is required.
+    <div class="form-group group-inline">
+      <div>
+        <label for="adults">Number of Adults</label>
+        <input type="number" min="1" class="form-control" id="adults" formControlName="adults"
+          placeholder="Enter number of adults">
+        <div *ngIf="form.get('adults')?.hasError('min') && form.get('adults')?.touched" class="text-danger">
+          Number of adults must be at least 1.
+        </div>
+        <div *ngIf="form.get('adults')?.hasError('required') && form.get('adults')?.touched" class="text-danger">
+          Number of adults is required.
+        </div>
       </div>
-    </div>
-    <div class="form-group">
-      <label for="phone">Contact Number</label>
-      <input type="tel" class="form-control" id="phone" formControlName="phone" placeholder="Enter contact number">
-      <div *ngIf="form.get('phone')?.hasError('required') && form.get('phone')?.touched" class="text-danger">
-        Contact number is required.
-      </div>
-      <div *ngIf="form.get('phone')?.hasError('pattern') && form.get('phone')?.touched" class="text-danger">
-        Enter a valid contact number.
+      <div>
+        <label for="children">Number of Children</label>
+        <input type="number" min="0" class="form-control" id="children" formControlName="children"
+          placeholder="Enter number of children">
+        <div *ngIf="form.get('children')?.hasError('min') && form.get('children')?.touched" class="text-danger">
+          Number of children cannot be negative.
+        </div>
       </div>
     </div>
     <div class="form-group">
@@ -65,13 +80,16 @@
       <div *ngIf="form.get('enddate')?.hasError('dateinPast') && form.get('enddate')?.touched" class="text-danger">
         End date cannot be in the past.
       </div>
-      <div *ngIf="form.get('enddate')?.hasError('durationTooShort') && form.get('enddate')?.touched"
+      <!-- <div *ngIf="form.get('enddate')?.hasError('durationTooShort') && form.get('enddate')?.touched"
         class="text-danger">
         End date must be at least {{minDuration}} days after the start date.
-      </div>
-      <div *ngIf="form.get('enddate')?.hasError('dateExceedmax') && form.get('enddate')?.touched" class="text-danger">
+      </div> -->
+      <!-- <div *ngIf="form.get('enddate')?.hasError('dateExceedmax') && form.get('enddate')?.touched" class="text-danger">
         End date cannot exceed the maximum allowed duration.
-      </div>
+      </div> -->
+    </div>
+    <div class="form-group">
+      <label>Total Price: ₹ {{ totalPrice }}</label>
     </div>
     <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Book</button>
   </form>
