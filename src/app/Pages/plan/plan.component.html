@@ -80,6 +80,10 @@
       <div *ngIf="form.get('enddate')?.hasError('dateinPast') && form.get('enddate')?.touched" class="text-danger">
         End date cannot be in the past.
       </div>
+      <div *ngIf="form.get('enddate')?.hasError('endDateBeforeStartDate') && form.get('enddate')?.touched"
+        class="text-danger">
+        End date must be after the start date.
+      </div>
       <!-- <div *ngIf="form.get('enddate')?.hasError('durationTooShort') && form.get('enddate')?.touched"
         class="text-danger">
         End date must be at least {{minDuration}} days after the start date.

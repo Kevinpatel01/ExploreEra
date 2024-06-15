@@ -30,6 +30,7 @@ export class PlanComponent implements OnInit {
     private bookingService: BookingService
   ) {
     this.loggedinEmail = this.authService.getLoggedInUserEmail();
+    // const today = new Date().toISOString().split('T')[0];
   }
 
   ngOnInit(): void {
@@ -40,7 +41,7 @@ export class PlanComponent implements OnInit {
 
       if (this.locationdetail.duration) {
         const durationParts = this.locationdetail.duration.split(' ');
-        this.minDuration = parseInt(durationParts[0], 10)+1;
+        this.minDuration = parseInt(durationParts[0], 10) + 1;
       }
     } else {
       console.log("No location detail in navigation state");
@@ -57,28 +58,22 @@ export class PlanComponent implements OnInit {
       enddate: ['', [Validators.required, date.dateNotinPast()]],
     });
 
-  //   this.form.get('startdate')?.valueChanges.subscribe((startDate: string) => {
-  //     if (startDate && this.minDuration !== null) {
-  //       const endDate = new Date(startDate);
-  //       endDate.setDate(endDate.getDate() + this.minDuration);
-  //       this.maxEndDate = endDate;
+    this.form.get('startdate')?.valueChanges.subscribe(startDate => {
+      const endDateControl = this.form.get('enddate');
+      if (endDateControl) {
+        endDateControl.setValidators([
+          Validators.required,
+          date.dateNotinPast(),
+          date.enddateAfterstartDate(this.form.get('startdate')!)
+        ]);
+        endDateControl.updateValueAndValidity();
+      }
+    });
 
-  //       this.form.get('enddate')?.setValidators([
-  //         Validators.required,
-  //         date.dateNotinPast(),
-  //         date.maxDate(this.maxEndDate),
-  //         date.minDuration(this.minDuration)
-  //       ]);
-  //       this.form.get('enddate')?.updateValueAndValidity();
-  //     }
-  //   });
-  // }
-
-
-  this.form.valueChanges.subscribe(() => {
-    this.calculateTotalPrice();
-  });
-}
+    this.form.valueChanges.subscribe(() => {
+      this.calculateTotalPrice();
+    });
+  }
 
   calculateTotalPrice(): void {
     if (this.form.valid) {
@@ -89,8 +84,8 @@ export class PlanComponent implements OnInit {
       const startDate = new Date(formValues.startdate);
       const endDate = new Date(formValues.enddate);
 
-      if(!isNaN(startDate.getTime()) && !isNaN(endDate.getTime())){
-        const numberOfDays = Math.floor((endDate.getTime() - startDate.getTime()) / (1000 * 3600 * 24))+ 1;
+      if (!isNaN(startDate.getTime()) && !isNaN(endDate.getTime())) {
+        const numberOfDays = Math.floor((endDate.getTime() - startDate.getTime()) / (1000 * 3600 * 24)) + 1;
         const perDayPrice = pricePerPerson / this.minDuration;
 
         console.log("Number of Days:", numberOfDays);
@@ -101,7 +96,7 @@ export class PlanComponent implements OnInit {
 
         this.totalPrice = numberOfPersons * perDayPrice * numberOfDays;
         console.log("Total Price is: ", this.totalPrice);
-      } else{
+      } else {
         this.totalPrice = 0;
       }
     }

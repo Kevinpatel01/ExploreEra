@@ -13,6 +13,17 @@ export class date {
     };
   }
 
+  static enddateAfterstartDate(startDateControl: AbstractControl): ValidatorFn {
+    return (control: AbstractControl): ValidationErrors | null => {
+      const startDate = new Date(startDateControl.value);
+      const endDate = new Date(control.value);
+      if(endDate <= startDate){
+        return { enddateBeforeStartDate:  true};
+      }
+      return null;
+    }
+  }
+
   // static maxDate(maxDate: Date): ValidatorFn {
   //   return (control: AbstractControl): ValidationErrors | null => {
   //     if (!control.value) {
