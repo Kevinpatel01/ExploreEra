@@ -16,7 +16,6 @@
     Previous</button>
   <button mat-raised-button color="accent" (click)="nextPage()" [disabled]="currentPage === totalPages">Next
     &rarr;</button> -->
-    <app-paginator [currentPage]="currentPage"
-    [totalPage]="totalPages"
-    (pageChange)="onPageChange($event)"></app-paginator>
+  <app-paginator [currentPage]="currentPage" [totalPage]="totalPages" (pageChange)="onPageChange($event)">
+  </app-paginator>
 </div>

@@ -20,11 +20,11 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { PlanComponent } from './Pages/plan/plan.component';
 import { MatDatepickerModule } from '@angular/material/datepicker';
-import {MatPaginatorModule} from '@angular/material/paginator';
+import { MatPaginatorModule } from '@angular/material/paginator';
 import { provideNativeDateAdapter } from '@angular/material/core';
 import { BookComponent } from './Pages/book/book.component';
 import { CdkTableModule } from '@angular/cdk/table';
@@ -82,7 +82,7 @@ import { PaginatorComponent } from './Components/paginator/paginator.component';
     MatIconModule,
     MatDatepickerModule,
     CdkTableModule,
-    ToastrModule.forRoot({timeOut: 4000}),
+    ToastrModule.forRoot({ timeOut: 4000 }),
     BrowserAnimationsModule,
   ],
   providers: [
