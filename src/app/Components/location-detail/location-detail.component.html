@@ -16,6 +16,17 @@
         </span>
         <span>Cost: <h3 class="desc">{{locationdetail?.cost}}</h3></span>
         <span>Duration: <h4 class="desc">{{locationdetail?.duration}}</h4></span>
+        <div class="itinerary">
+          <span> Itinerary: </span>
+          <ul>
+            <li class="desc" *ngFor="let day of locationdetail?.itinerary">
+              {{ day }}
+            </li>
+          </ul>
+          <p style="font-weight: bold;">Note: If you wish to extend your stay beyond the packaged itinerary, please
+            contact our travel advisor. We can customize your trip to accommodate additional days or include specific
+            activities based on your preferences.</p>
+        </div>
         <div>
           <button mat-flat-button color="primary" (click)="planTravel()">Plan Travel</button>
         </div>

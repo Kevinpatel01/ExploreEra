@@ -8,7 +8,19 @@
       "category": "Nature",
       "description": "Sekumpul Waterfall is a stunning multi-tiered waterfall located in Bali, Indonesia. Surrounded by lush greenery, it offers a magical and serene experience for visitors. 🌿🏞️",
       "cost": "₹ 64,000 per person",
-      "duration": "9 nights & 10 days"
+      "duration": "9 nights & 10 days",
+      "itinerary": [
+        "Day 1: Arrival in Bali, transfer to hotel.",
+        "Day 2: Relax and explore local surroundings.",
+        "Day 3: Full day trip to Sekumpul Waterfall, guided trek through lush greenery, swimming in natural pools.",
+        "Day 4: Visit nearby temples and cultural sites.",
+        "Day 5: Day trip to Ubud, explore rice terraces and Monkey Forest.",
+        "Day 6: Beach day at Kuta or Seminyak.",
+        "Day 7: Snorkeling or diving trip.",
+        "Day 8: Day trip to Nusa Penida Island.",
+        "Day 9: Leisure day or spa treatment.",
+        "Day 10: Departure."
+      ]
     },
     {
       "id": "1",
@@ -18,7 +30,13 @@
       "category": "Mountains",
       "description": "The Matterhorn is an iconic mountain standing at 4,478 meters in the Swiss Alps. Its distinctive pyramid shape and snow-capped peak make it a breathtaking sight. Whether viewed from Zermatt or other vantage points, the Matterhorn leaves an indelible impression on all who see it. 🏔️❄️",
       "cost": "₹ 725,000 per person",
-      "duration": "3 nights & 4 days"
+      "duration": "3 nights & 4 days",
+      "itinerary": [
+        "Day 1: Arrival in Zermatt, check into hotel, evening stroll through the village.",
+        "Day 2: Cable car ride to the Matterhorn Glacier Paradise, panoramic views, snow activities.",
+        "Day 3: Hike or train ride to Gornergrat for Matterhorn views.",
+        "Day 4: Morning leisure time, departure."
+      ]
     },
     {
       "id": "2",
@@ -28,7 +46,14 @@
       "category": "Landmarks",
       "description": "The Eiffel Tower is an iconic wrought-iron lattice tower located on the Champ de Mars in Paris. It was completed in 1889 as part of the 1889 World's Fair and has become a symbol of the city. Standing at 324 meters (1,063 feet), it offers stunning panoramic views of Paris from its observation decks. The tower's intricate design and historical significance make it a must-visit attraction for tourists and locals alike. 🗼🌆🇫🇷",
       "cost": "₹ 150,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Paris, transfer to hotel, evening Seine River cruise.",
+        "Day 2: Eiffel Tower visit, explore Champs-Élysées and Arc de Triomphe.",
+        "Day 3: Louvre Museum tour, stroll in Jardin des Tuileries.",
+        "Day 4: Day trip to Versailles Palace.",
+        "Day 5: Montmartre and Sacré-Cœur, departure."
+      ]
     },
     {
       "id": "3",
@@ -38,7 +63,14 @@
       "category": "Adventure",
       "description": "The Everest Base Camp trek is a popular and iconic trekking experience in the Himalayas of Nepal, attracting adventurers from around the world. This trek offers stunning views of the world's highest peaks, including Mount Everest, as well as unique cultural experiences in Sherpa villages. The journey typically starts with a flight to Lukla, followed by a trek through rugged terrain, beautiful forests, and high-altitude landscapes, leading to the base camp where climbers begin their ascent of Everest. Along the way, trekkers can explore Buddhist monasteries, encounter yaks, and immerse themselves in the breathtaking beauty of the Khumbu region, making it a memorable and rewarding adventure for those seeking a challenge and a connection with nature.",
       "cost": "₹ 125,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Kathmandu, city tour.",
+        "Day 2: Flight to Lukla, start trek to Phakding.",
+        "Day 3: Trek from Phakding to Namche Bazaar.",
+        "Day 4: Acclimatization day in Namche Bazaar.",
+        "Day 5: Trek to Everest Base Camp, return to Gorak Shep."
+      ]
     },
     {
       "id": "4",
@@ -48,7 +80,15 @@
       "category": "Historical",
       "description": "Kanchanaburi, located in western Thailand, is renowned for its historical significance. It’s home to the famous Bridge over the River Kwai, which was built during World War II by prisoners of war. The area also boasts picturesque landscapes, including lush forests and serene river views. 🌿🌉",
       "cost": "₹ 50,000 per person",
-      "duration": "5 nights & 6 days"
+      "duration": "5 nights & 6 days",
+      "itinerary": [
+        "Day 1: Arrival in Bangkok, transfer to Kanchanaburi.",
+        "Day 2: Visit Bridge over the River Kwai and War Cemetery.",
+        "Day 3: Day trip to Erawan National Park and Erawan Falls.",
+        "Day 4: Hellfire Pass Memorial Museum, hiking.",
+        "Day 5: Boat trip on the River Kwai.",
+        "Day 6: Departure."
+      ]
     },
     {
       "id": "5",
@@ -58,7 +98,14 @@
       "category": "Beach",
       "description": "rant beach shacks, and a wide range of water sports. Whether you’re into parasailing, water surfing, banana rides, or jet-skiing, Calangute Beach has something for every beach lover. 🏖️🌊",
       "cost": "₹ 25,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Goa, check into beach resort.",
+        "Day 2: Relax on Calangute Beach, water sports activities.",
+        "Day 3: Day trip to Old Goa, visit churches and historical sites.",
+        "Day 4: Explore Anjuna Flea Market and Vagator Beach.",
+        "Day 5: Morning leisure time, departure."
+      ]
     },
     {
       "id": "6",
@@ -68,7 +115,16 @@
       "category": "Adventure",
       "description": "Munnar, nestled in the Western Ghats of Kerala, is renowned for its picturesque tea plantations, mist-covered hills, and cool climate. It’s a tranquil haven for nature enthusiasts and offers breathtaking views at every turn. 🌿🌄",
       "cost": "₹ 25,500 per person",
-      "duration": "6 nights & 7 days"
+      "duration": "6 nights & 7 days",
+      "itinerary": [
+        "Day 1: Arrival in Cochin, transfer to Munnar.",
+        "Day 2: Visit tea plantations and Eravikulam National Park.",
+        "Day 3: Top Station for panoramic views, Mattupetty Dam.",
+        "Day 4: Anamudi Peak trek or Echo Point.",
+        "Day 5: Kundala Lake and Blossom Park.",
+        "Day 6: Leisure day or visit Attukal Waterfalls.",
+        "Day 7: Departure."
+      ]
     },
     {
       "id": "7",
@@ -78,7 +134,14 @@
       "category": "Entertainment",
       "cost": "₹ 215,000 per person",
       "description": " Universal Studios Singapore is an exciting theme park located on Sentosa Island. It features thrilling rides, movie-themed attractions, and immersive experiences for visitors of all ages. 🎢🎥",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Singapore, transfer to hotel.",
+        "Day 2: Full day at Universal Studios.",
+        "Day 3: Explore Sentosa Island attractions.",
+        "Day 4: City tour of Singapore.",
+        "Day 5: Shopping and departure."
+      ]
     },
     {
       "id": "8",
@@ -88,7 +151,14 @@
       "category": "Historical",
       "description": "Rome, the capital of Italy, is a city steeped in history, art, and culture. Explore iconic landmarks like the Colosseum, marvel at the Vatican Museums, and toss a coin into the Trevi Fountain for good luck. 🇮🇹✨",
       "cost": "₹ 215,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Rome, transfer to hotel.",
+        "Day 2: Visit the Colosseum, Roman Forum, and Palatine Hill.",
+        "Day 3: Vatican Museums, Sistine Chapel, St. Peter's Basilica.",
+        "Day 4: Pantheon, Trevi Fountain, and Spanish Steps.",
+        "Day 5: Leisure time, departure."
+      ]
     },
     {
       "id": "9",
@@ -98,7 +168,14 @@
       "category": "Pilgrimage",
       "description": "Kedarnath, located in the Indian state of Uttarakhand, is a significant pilgrimage site for Hindus. It is nestled in the Himalayan ranges and is known for its serene beauty and spiritual aura. The main attraction in Kedarnath is the Kedarnath Temple, dedicated to Lord Shiva, which is one of the twelve Jyotirlingas in India. The journey to Kedarnath involves a trek of approximately 16 kilometers from Gaurikund, passing through picturesque landscapes and breathtaking views of the mountains. Visitors can also explore the surrounding area, which offers opportunities for meditation, trekking, and connecting with nature. It is advisable to check the weather conditions before planning a trip to Kedarnath, as the region experiences snowfall during the winter months.",
       "cost": "₹ 19,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Rishikesh, transfer to Guptkashi.",
+        "Day 2: Trek from Gaurikund to Kedarnath.",
+        "Day 3: Visit Kedarnath Temple, explore surroundings.",
+        "Day 4: Return trek to Gaurikund, drive to Rishikesh.",
+        "Day 5: Departure."
+      ]
     },
     {
       "id": "10",
@@ -108,7 +185,16 @@
       "category": "Beach",
       "description": "Trou aux Biches is a charming coastal town in northwest Mauritius, renowned for its pristine beaches, azure waters, and excellent tourist amenities. Whether you seek relaxation on soft white sands, snorkeling in crystal-clear waters, or exploring the underwater world, Trou aux Biches offers a delightful experience. 🏖️ For a romantic getaway, consider staying at the Trou aux Biches Beachcomber Golf Resort & Spa, nestled along the beach with turquoise lagoon views. 🌴 Explore attractions like the Jummah Masjid and the Sir Seewoosagur Ramgoolam Botanical Garden to enhance your visit. 🌺",
       "cost": "₹ 15,000 per person",
-      "duration": "6 nights & 7 days"
+      "duration": "6 nights & 7 days",
+      "itinerary": [
+        "Day 1: Arrival in Mauritius, transfer to beach resort.",
+        "Day 2: Relax on Trou Aux Biches Beach.",
+        "Day 3: Snorkeling and water sports.",
+        "Day 4: Visit Port Louis and Pamplemousses Botanical Garden.",
+        "Day 5: Catamaran cruise to Gabriel Island.",
+        "Day 6: Leisure day or visit Grand Baie.",
+        "Day 7: Departure."
+      ]
     },
     {
       "id": "11",
@@ -118,7 +204,14 @@
       "category": "Landmarks",
       "description": "The Notre-Dame Cathedral is a Gothic masterpiece located on the Île de la Cité in the heart of Paris. Its construction began in the 12th century, and it has been a symbol of French history, art, and architecture. The cathedral features stunning stained glass windows, intricate sculptures, and a rich history that draws millions of visitors each year. Unfortunately, in April 2019, a devastating fire severely damaged the cathedral, but restoration efforts are underway to preserve its beauty and cultural significance. 🕍🔥🇫🇷",
       "cost": "₹ 150,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Paris, transfer to hotel.",
+        "Day 2: Visit Notre-Dame Cathedral, Île de la Cité, Sainte-Chapelle.",
+        "Day 3: Musée d'Orsay and Orangerie Museum.",
+        "Day 4: Explore Le Marais district.",
+        "Day 5: Departure."
+      ]
     },
     {
       "id": "12",
@@ -128,7 +221,16 @@
       "category": "Nature",
       "description": "Chamarel and the Seven Coloured Earths in Mauritius is a natural wonder where sand dunes display a mesmerizing array of colors, ranging from reds and browns to purples and blues. The unique geological phenomenon is caused by the varying mineral content in the soil. Visitors can witness this captivating sight and explore the surrounding lush landscape. 🌈🏞️🇲🇺",
       "cost": "₹ 15,000 per person",
-      "duration": "6 nights & 7 days"
+      "duration": "6 nights & 7 days",
+      "itinerary": [
+        "Day 1: Arrival in Mauritius, transfer to hotel.",
+        "Day 2: Visit Chamarel and Seven Coloured Earths.",
+        "Day 3: Black River Gorges National Park.",
+        "Day 4: Dolphin watching tour.",
+        "Day 5: Le Morne Brabant hike.",
+        "Day 6: Leisure day or visit Chamarel Waterfall.",
+        "Day 7: Departure."
+      ]
     },
     {
       "id": "13",
@@ -138,7 +240,14 @@
       "category": "Landmarks",
       "description": "The Arc de Triomphe is an iconic monument in Paris, France. Commissioned by Napoleon in 1806, it commemorates French soldiers who fought in the Napoleonic Wars. The arch stands 50 meters tall and features four semicircular arches, making it a central cohesive element of the historic axis in Paris. 🇫🇷🏛️🌟",
       "cost": "₹ 150,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Paris, transfer to hotel.",
+        "Day 2: Visit Arc de Triomphe, explore Champs-Élysées.",
+        "Day 3: Day trip to Mont Saint-Michel.",
+        "Day 4: Explore Latin Quarter and Luxembourg Gardens.",
+        "Day 5: Departure."
+      ]
     },
     {
       "id": "14",
@@ -148,7 +257,15 @@
       "category": "Religious",
       "description": "Grand Bassin, also known as Ganga Talao, is a sacred crater lake in Mauritius. It holds great religious significance for the Hindu community. The serene lake is surrounded by lush green hills and features a temple dedicated to Lord Shiva. Pilgrims visit this tranquil spot to offer prayers and immerse themselves in its spiritual ambiance. 🕉️🏞️🇲🇺",
       "cost": "₹ 28,000 per person",
-      "duration": "5 nights & 6 days"
+      "duration": "5 nights & 6 days",
+      "itinerary": [
+        "Day 1: Arrival in Mauritius, transfer to hotel.",
+        "Day 2: Visit Grand Bassin, temple tour.",
+        "Day 3: Explore South Coast and Chamarel Waterfall.",
+        "Day 4: Snorkeling trip.",
+        "Day 5: Beach relaxation.",
+        "Day 6: Departure."
+      ]
     },
     {
       "id": "15",
@@ -158,7 +275,12 @@
       "category": "Nature",
       "description": "The Pamplemousses Botanic Garden in Mauritius, also known as Sir Seewoosagur Ramgoolam Botanical Garden, is the oldest and largest garden in the country. It boasts an impressive collection of diverse flora, including giant water lilies, exotic palm trees, and vibrant tropical plants. Visitors can explore its picturesque pathways, enjoy the serene pond, and marvel at the lush greenery. 🌿🌺🇲🇺",
       "cost": "₹ 15,000 per person",
-      "duration": "2 nights & 3 days"
+      "duration": "2 nights & 3 days",
+      "itinerary": [
+        "Day 1: Arrival in Mauritius, transfer to hotel.",
+        "Day 2: Visit Pamplemousses Botanic Garden.",
+        "Day 3: Departure."
+      ]
     },
     {
       "id": "16",
@@ -168,7 +290,14 @@
       "category": "Nature",
       "description": "Nainital, often referred to as the “Jewel of Kumaon,” is a picturesque hill station in Uttarakhand, India. It boasts a serene Nainital Lake, surrounded by lush green hills. Visitors can enjoy boat rides on the lake and take in breathtaking views of the surrounding mountains. 🏞️🚣‍♂️",
       "cost": "₹ 19,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Kathgodam, transfer to Nainital.",
+        "Day 2: Boat ride on Nainital Lake, explore Mall Road.",
+        "Day 3: Visit Snow View Point, Naina Devi Temple.",
+        "Day 4: Day trip to Bhimtal and Sattal.",
+        "Day 5: Departure."
+      ]
     },
     {
       "id": "17",
@@ -178,7 +307,15 @@
       "category": "Nature",
       "description": "The Valley of Flowers is a mesmerizing UNESCO World Heritage Site located in the Himalayas of Uttarakhand, India. This enchanting valley blooms with a vibrant carpet of alpine flowers during the monsoon season, creating a breathtaking spectacle for nature enthusiasts and trekkers alike. 🌸🏞️",
       "cost": "₹ 19,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Port Blair, transfer to Havelock Island.",
+        "Day 2: Relax on Radhanagar Beach.",
+        "Day 3: Snorkeling at Elephant Beach.",
+        "Day 4: Visit Kalapathar Beach.",
+        "Day 5: Scuba diving session.",
+        "Day 6: Departure."
+      ]
     },
     {
       "id": "18",
@@ -188,7 +325,14 @@
       "category": "Nature",
       "description": "Mussoorie, often called the “Queen of Hills,” is a charming hill station in Uttarakhand, India. Nestled amidst lush green hills, it offers breathtaking views, waterfalls, and a pleasant climate. Don’t miss exploring the Mall Road and soaking in the panoramic vistas. 🏞️🌿",
       "cost": "₹ 19,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Dehradun, transfer to Mussoorie.",
+        "Day 2: Visit Kempty Falls, Gun Hill.",
+        "Day 3: Camel's Back Road, Landour.",
+        "Day 4: Lal Tibba, Company Garden.",
+        "Day 5: Departure."
+      ]
     },
     {
       "id": "19",
@@ -198,7 +342,14 @@
       "category": "Historical",
       "description": "Pompeii, an ancient Roman city, lies near Naples, Italy. It was tragically buried by the eruption of Mount Vesuvius in 79 AD. The remarkably preserved ruins offer a glimpse into daily life, with well-preserved houses, streets, and even plaster casts of victims. 🏛️🌋",
       "cost": "₹ 215,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Naples, transfer to Pompeii.",
+        "Day 2: Explore Pompeii ruins.",
+        "Day 3: Visit Herculaneum and Mount Vesuvius.",
+        "Day 4: Day trip to Amalfi Coast.",
+        "Day 5: Departure."
+      ]
     },
     {
       "id": "20",
@@ -208,7 +359,16 @@
       "category": "Caltural",
       "cost": "₹ 215,000 per person",
       "description": "Chinatown in Singapore is a vibrant and historic neighborhood that offers a rich blend of culture, heritage, and modern city life. It’s one of the city’s most iconic and bustling districts, known for its colorful streets, traditional architecture, delectable food, and a range of cultural attractions. Featuring distinctly Chinese cultural elements, Chinatown has had a historically concentrated ethnic Chinese population. While it is considerably less of an enclave than it once was, it remains a must-visit destination for travelers seeking an authentic experience in Singapore. 🏮🌆",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Singapore, check-in at the hotel in Chinatown. Explore Chinatown Heritage Centre and Buddha Tooth Relic Temple.",
+        "Day 2: Visit Chinatown Food Street for breakfast. Explore the vibrant markets and shops. Visit Sri Mariamman Temple and Thian Hock Keng Temple.",
+        "Day 3: Explore the Peranakan Museum and take a guided tour of the historic shophouses in Chinatown.",
+        "Day 4: Day trip to Marina Bay Sands and Gardens by the Bay. Explore the Cloud Forest and Supertree Grove.",
+        "Day 5: Visit Sentosa Island for a day of relaxation and adventure. Enjoy Universal Studios Singapore or relax at the beach.",
+        "Day 6: Visit Singapore Zoo and Night Safari for a unique wildlife experience.",
+        "Day 7: Departure from Singapore, concluding your cultural journey through Chinatown."
+      ]
     },
     {
       "id": "21",
@@ -218,7 +378,19 @@
       "category": "Nature",
       "description": "The Sacred Monkey Forest Sanctuary in Bali, Indonesia, is a lush forest area inhabited by playful monkeys. Visitors can explore ancient temples within the sanctuary while enjoying the natural beauty and observing the mischievous macaques. 🌿🐒",
       "cost": "₹ 64,000 per person",
-      "duration": "9 nights & 10 days"
+      "duration": "9 nights & 10 days",
+      "itinerary": [
+        "Day 1: Arrival in Bali, transfer to hotel.",
+        "Day 2: Visit Sacred Monkey Forest Sanctuary.",
+        "Day 3: Explore Ubud Market and Art Village.",
+        "Day 4: Day trip to Tegalalang Rice Terrace.",
+        "Day 5: White water rafting on Ayung River.",
+        "Day 6: Day trip to Tanah Lot Temple.",
+        "Day 7: Explore beaches in South Bali.",
+        "Day 8: Snorkeling trip to Nusa Lembongan.",
+        "Day 9: Leisure day or spa treatment.",
+        "Day 10: Departure."
+      ]
     },
     {
       "id": "22",
@@ -228,7 +400,13 @@
       "category": "Nature",
       "description": "Jungfraujoch, often referred to as the “Top of Europe,” is a high-altitude wonder in Switzerland. Visitors can take a scenic train ride to this breathtaking location, surrounded by the Eiger, Mönch, and Jungfrau peaks. The views from here are truly awe-inspiring! 🚂❄️",
       "cost": "₹ 725,000 per person",
-      "duration": "3 nights & 4 days"
+      "duration": "3 nights & 4 days",
+      "itinerary": [
+        "Day 1: Arrival in Interlaken, transfer to hotel.",
+        "Day 2: Scenic train ride to Jungfraujoch, explore.",
+        "Day 3: Day trip to Lauterbrunnen and Wengen.",
+        "Day 4: Departure."
+      ]
     },
     {
       "id": "23",
@@ -238,9 +416,16 @@
       "category": "Caltural",
       "description": "Kathmandu, the capital of Nepal, lies in a hilly region near the confluence of the Baghmati and Vishnumati rivers. At an elevation of 4,344 feet (1,324 meters) above sea level, it was founded in 723 AD by Raja Gunakamadeva. Its early name was Manju-Patan, and the present name refers to a wooden temple. Today, Kathmandu is a vibrant city with a rich history, art, culture, and a multi-ethnic population within a Hindu and Buddhist majority. 🏔️🌸",
       "cost": "₹ 125,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Kathmandu, transfer to hotel.",
+        "Day 2: Visit Swayambhunath and Boudhanath Stupa.",
+        "Day 3: Patan and Bhaktapur day trip.",
+        "Day 4: Pashupatinath Temple and Durbar Square.",
+        "Day 5: Departure."
+      ]
     },
-      {
+    {
       "id": "24",
       "image": "https://th.bing.com/th/id/OIP.gUvk114NguaCBdE8kNwDYgHaE8?rs=1&pid=ImgDetMain",
       "location": "Ayuthaya",
@@ -248,7 +433,15 @@
       "category": "Historical",
       "description": "Ayuthaya, also known as Ayutthaya, is a UNESCO World Heritage Site in Thailand. It was the second capital of the Siamese Kingdom and is famous for its ancient ruins, including temples and palaces. The city was a major trading hub and cultural center until it was destroyed in the 18th century. Today, visitors can explore the historical remnants and appreciate the rich history of this once-thriving city. 🏛️🌟",
       "cost": "₹ 50,000 per person",
-      "duration": "5 nights & 6 days"
+      "duration": "5 nights & 6 days",
+      "itinerary": [
+        "Day 1: Arrival in Bangkok, transfer to Ayutthaya.",
+        "Day 2: Explore Ayutthaya Historical Park.",
+        "Day 3: Visit Wat Mahathat and Wat Phra Si Sanphet.",
+        "Day 4: Boat tour around Ayutthaya.",
+        "Day 5: Bang Pa-In Royal Palace.",
+        "Day 6: Departure."
+      ]
     },
     {
       "id": "25",
@@ -258,7 +451,14 @@
       "category": "Historical",
       "description": "Fort Aguada, a 17th-century Portuguese fort in Goa, is perched atop a hill overlooking the Arabian Sea. Its distinctive four-storey lighthouse offers breathtaking panoramic views of the coastline. The fort played a crucial role in defending against naval attacks during its time. 🏰🌅",
       "cost": "₹ 25,000 per person",
-      "duration": "4 nights & 5 days"
+      "duration": "4 nights & 5 days",
+      "itinerary": [
+        "Day 1: Arrival in Goa, transfer to beach resort.",
+        "Day 2: Visit Fort Aguada and Sinquerim Beach.",
+        "Day 3: Day trip to Old Goa.",
+        "Day 4: Relax on Baga Beach and visit local markets.",
+        "Day 5: Departure."
+      ]
     },
     {
       "id": "26",
@@ -268,7 +468,16 @@
       "category": "Caltural",
       "description": "Kollam, also known as Quilon, is the fourth largest city in Kerala. It’s famous for cashew processing, coir manufacturing, and its historical significance. Located on the Malabar Coast, Kollam serves as the southern gateway to the Backwaters of Kerala, making it a prominent tourist destination with continuous settlements dating back centuries.🌴🏖️",
       "cost": "₹ 25,500 per person",
-      "duration": "6 nights & 7 days"
+      "duration": "6 nights & 7 days",
+      "itinerary": [
+        "Day 1: Arrival in Kollam, check-in at the hotel. Explore local markets and enjoy traditional Kerala cuisine for dinner.",
+        "Day 2: Visit the historic Kollam Beach and Thangassery Lighthouse. Enjoy a boat ride in the backwaters of Kerala.",
+        "Day 3: Explore the cashew processing units and coir manufacturing centers. Visit local temples and learn about the historical significance of Kollam.",
+        "Day 4: Day trip to Munroe Island, known for its scenic beauty and backwater canals. Experience a village tour and interact with local communities.",
+        "Day 5: Relaxation day at the hotel or optional activities like Ayurvedic massages and spa treatments.",
+        "Day 6: Visit the Ashtamudi Lake and take a houseboat cruise. Enjoy a sunset dinner cruise on the lake.",
+        "Day 7: Departure from Kollam with fond memories."
+      ]
     }
   ],
   "blogs": [

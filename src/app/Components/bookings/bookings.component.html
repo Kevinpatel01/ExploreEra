@@ -8,6 +8,7 @@
       <h5 class="card-title">{{ booking.firstname }} {{ booking.lastname }}</h5>
       <p class="card-text">
         <strong>Email:</strong> {{ booking.email }}<br>
+        <strong>Refrence Number:</strong> {{ booking.referenceNumber }}<br>
         <strong>Total Number of Persons:</strong> {{ booking.adults + booking.children }}<br>
         <strong>Phone:</strong> {{ booking.phone }}<br>
         <strong>Start Date:</strong> {{ booking.startdate | date }}<br>

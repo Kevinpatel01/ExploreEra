@@ -10,14 +10,30 @@ import { NavigationstateserviceService } from '../../navigationstateservice.serv
   styleUrl: './location-detail.component.css'
 })
 export class LocationDetailComponent implements OnInit {
-  locationdetail: any;
-  constructor(private api: ServicesService, private activatedRoute: ActivatedRoute, private router: Router, private navigationService: NavigationstateserviceService) { }
+
+  locationdetail: location | undefined;
+
+  constructor(
+    private api: ServicesService,
+    private activatedRoute: ActivatedRoute,
+    private router: Router,
+    private navigationService: NavigationstateserviceService
+  ) { }
+
+
   ngOnInit(): void {
-    let locationId = this.activatedRoute.snapshot.paramMap.get('locationid');
+    const locationId = this.activatedRoute.snapshot.paramMap.get('locationid');
     // console.log("Location Id is: ", locationId);
-    locationId && this.api.getLocationDetail(locationId).subscribe(res => {
-      this.locationdetail = res;
-    })
+    // locationId && this.api.getLocationDetail(locationId).subscribe(res => {
+    //   this.locationdetail = res;
+    // })
+
+    if(locationId){
+      this.api.getLocationDetail(locationId).subscribe(
+        res => this.locationdetail = res,
+        err => console.log("Error fetching location details", err)
+      )
+    }
   }
 
   planTravel(): void {

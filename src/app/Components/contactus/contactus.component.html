@@ -1,4 +1,3 @@
-<app-navbar></app-navbar>
 <div class="contact_us_2">
   <div class="responsive-container-block big-container">
     <div class="blueBG">
@@ -18,6 +17,9 @@
               </p>
               <input class="input" id="ijowk" name="FirstName" formControlName="firstname"
                 placeholder="Please enter first name...">
+                <div *ngIf="myForm.get('firstname')?.hasError('required') && myForm.get('firstname')?.touched" class="text-danger">
+                  First name is required.
+                </div>
             </div>
             <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
               <p class="text-blk input-title">
@@ -25,12 +27,24 @@
               </p>
               <input class="input" id="indfi" name="Last Name" formControlName="lastname"
                 placeholder="Please enter last name...">
+                <div *ngIf="myForm.get('lastname')?.hasError('required') && myForm.get('lastname')?.touched" class="text-danger">
+                  Last name is required.
+                </div>
             </div>
             <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
               <p class="text-blk input-title">
                 EMAIL
               </p>
               <input class="input" id="ipmgh" name="Email" formControlName="email" placeholder="Please enter email...">
+              <div *ngIf="myForm.get('email')?.hasError('required') && myForm.get('email')?.touched" class="text-danger">
+                Email is required.
+              </div>
+              <div *ngIf="myForm.get('email')?.hasError('email') && myForm.get('email')?.touched" class="text-danger">
+                Enter a valid email address.
+              </div>
+              <div *ngIf="myForm.get('email')?.hasError('emailMismatch') && myForm.get('email')?.touched" class="text-danger">
+                Email must match the logged-in email.
+              </div>
             </div>
             <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
               <p class="text-blk input-title">
@@ -38,6 +52,12 @@
               </p>
               <input class="input" id="imgis" name="PhoneNumber" formControlName="phonenumber"
                 placeholder="Please enter phone number...">
+                <div *ngIf="myForm.get('phonenumber')?.hasError('required') && myForm.get('phonenumber')?.touched" class="text-danger">
+                  Contact number is required.
+                </div>
+                <div *ngIf="myForm.get('phonenumber')?.hasError('pattern') && myForm.get('phonenumber')?.touched" class="text-danger">
+                  Enter a valid contact number.
+                </div>
             </div>
             <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i">
               <p class="text-blk input-title">

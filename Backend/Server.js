@@ -77,7 +77,6 @@ app.post("/login", async (req, res) => {
 app.use("/api", profileRoute);
 app.use("/api", bookingRoute);
 
-
 app.listen(3001, () => {
   console.log("Server running on port 3001");
 });

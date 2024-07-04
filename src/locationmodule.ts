@@ -3,9 +3,11 @@ location: any
   id: number,
   image: string,
   place: string,
+  category: string,
   description: string,
   cost: string,
-  duration: string
+  duration: string,
+  itinerary: string[]
 }
 
 export interface blog{

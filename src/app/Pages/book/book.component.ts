@@ -3,13 +3,13 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NavigationstateserviceService } from '../../navigationstateservice.service';
 import { BookingService } from './booking.service';
-import e, { response } from 'express';
 
 @Component({
   selector: 'app-booking',
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.css']
 })
+
 export class BookComponent implements OnInit {
   formData: any;
   locationdetail: any;
@@ -68,7 +68,7 @@ export class BookComponent implements OnInit {
     if (payment) {
       this.saveBooking(bookingData);
     }
-    else{
+    else {
       console.error("Error in payment");
     }
 

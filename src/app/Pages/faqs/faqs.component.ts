@@ -10,7 +10,7 @@ export class FAQsComponent {
     {
       title: 'General',
       items: [
-        {
+        { 
           question: 'Q: What is Explore Era?',
           answer: 'A: Explore Era is a travel booking website that allows users to browse and book travel destinations, accommodations, and activities. We aim to provide a seamless travel planning experience with detailed information and user-friendly booking processes.',
           show: false

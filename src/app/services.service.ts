@@ -15,8 +15,8 @@ export class ServicesService {
     return this.http.get<location[]>(this.url)
   }
 
-  getLocationDetail(id: string): Observable<location[]> {
-    return this.http.get<location[]>("http://localhost:3000/locations/" + id);
+  getLocationDetail(id: string): Observable<location> {
+    return this.http.get<location>("http://localhost:3000/locations/" + id);
   }
 
   getCategory(category: string) {

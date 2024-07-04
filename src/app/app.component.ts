@@ -9,6 +9,7 @@ import { NavigationEnd, Router } from '@angular/router';
   ]
 })
 export class AppComponent implements OnInit {
+  showNavbar: boolean = true;
   showFooter: boolean = true;
   title = 'app';
 
@@ -17,7 +18,8 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        this.showFooter = !["/", "/register", "/profile", "/pay", "/plan", "/book", "/booking", "/pay/card", "/pay/netbanking", "/pay/upi", "/confirm", "/search"].includes(event.urlAfterRedirects);
+        this.showNavbar = !["/", "/register"].includes(event.urlAfterRedirects);
+        this.showFooter = !["/", "/register", "/profile", "/search"].includes(event.urlAfterRedirects);
       }
     });
   }

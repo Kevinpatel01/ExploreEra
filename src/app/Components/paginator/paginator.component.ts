@@ -18,16 +18,19 @@ export class PaginatorComponent {
   previousPage(): void {
     if (this.currentPage > 1) {
       this.pageChange.emit(this.currentPage - 1);
+      window.scrollTo(0, 0);
     }
   }
 
   nextPage(): void {
     if (this.currentPage < this.totalPage) {
       this.pageChange.emit(this.currentPage + 1);
+      window.scrollTo(0, 0);
     }
   }
 
   gotoPage(page: number): void {
     this.pageChange.emit(page);
+    window.scrollTo(0, 0);
   }
 }
